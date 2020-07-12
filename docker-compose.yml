@@ -10,5 +10,5 @@ services:
         ports:
             - "10000:8080"
         volumes:
-            # - /mnt/wdredp01/nodejs/udemy-nodejs-redis-03:/usr/app
+            - /usr/app/node_modules
             - ./:/usr/app
